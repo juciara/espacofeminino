@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<link href="css/estilo.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/fonte/css/font-awesome.min.css">
+		<title>Espaço Feminino</title>
+	</head>
+<body>
+	<header>
+		<h1>Espaço Feminino</h1>
+	</header>
+		      
+<nav>
+	<label for="drop" class="toggle">Menu</label>
+		<input type="checkbox" id="drop" />
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li> <!-- First Tier Drop Down -->
+					<label for="drop-1" class="toggle">Categorias</label>
+						<a href="#">Categorias</a>
+							<input type="checkbox" id="drop-1"/>
+							<ul class="opc_categoria">
+								<li><a href="novidades.html">Novidades</a></li>
+								<li><a href="bolsas.html">Bolsas</a></li>
+								<li><a href="brincos.html">Brincos</a></li>
+								<li><a href="colares.html">Colares</a></li>
+								<li><a href="pulseiras.html">Pulseiras</a></li>
+							</ul> 
+				</li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+</nav>
+
+<main>
+	<div id="texto">
+		<h2> Entre em Contato</h2>
+			<p>Entre em contato conosco através do nosso formulário. </p>
+			<p>Em breve responderemos você! </p>
+			<p>Para enviar sua mensagem, preencha os campos ao lado: </p>
+	</div>
+	<div id="formulario">
+	
+		<h2> Envie sua mensagem</h2>
+			<form method="post" action="php/envio.php" id="contato">
+					<p>
+						<label for="nome"> Nome <br> 
+							<input type="text" name="nome" id="nome" size="25" maxlength="35" required autofocus >
+						</label>
+					</p>
+					<p>
+						<label for="cidade">Cidade <br>
+								<input type="text" name="cidade" id="cidade" size="25" maxlength="30">
+						</label> 
+					</p>
+					
+					<p>
+						<label for="email">E-mail <br>
+							<input type="email" name="email" id="email" placeholder="Digite um email válido" 
+							title="Formato válido para email: exemplo@exemplo.com.br ou exemplo@exemplo.com" size="25">
+						</label>
+					</p>
+	
+					<p class="nome">
+						<label for="assunto">Assunto <br>
+							<input type="text" name="assunto" id="assunto" size="25" maxlength="30" >
+						</label>
+					</p>
+					<p>
+						<label for="sugestao"> Sugestão <br>
+							<textarea name="sugestao" id="sugestao" rows="7" cols="35"></textarea >
+						</label>
+					</p>
+						<input type="submit" value="Enviar" class="btn">
+						<input type="reset" value="Limpar" class="btn" >
+			</form>
+			
+		</div>	
+</main>
+
+<footer>
+
+<div><a href="index.html">Espaço Feminino</a> 2016 - Copyright</div>
+	
+<a href="https://www.facebook.com/Espa%C3%A7o-Feminino-1722327171363961/?fref=ts" target="_blank" class="fa fa-facebook-square"></a>
+<a href="https://www.instagram.com/espacofemininobyeli/" target="_blank" class="fa fa-instagram"></a>
+<a href="tel:+5513996464113" class="fa fa-whatsapp"></a>
+
+<div>Desenvolvido por: Agência CriAtiva</div>
+</footer>
+</body>
+</html>
