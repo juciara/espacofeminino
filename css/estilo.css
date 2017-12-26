@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
 @font-face {
 
 font-family: "FontAwesome";
@@ -22,6 +24,23 @@ body {
 	margin: auto;
 	color: #000;
 }
+
+.login-page
+{
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-attachment: fixed;
+
+}
 header{
 	width: 98%;
 	height: 110px;
@@ -42,11 +61,10 @@ header h1{
 }
 
 nav { 
-	margin: 0 2%;
 	line-height:30px;
-	background-color: #226179;
-	width: 96%;
-	margin-top: 20px;
+	background-color: rgba(255,255,255, 0.1);
+	width: 100%;
+	margin-top: 0px;
 }
 
 main {
@@ -219,14 +237,12 @@ nav ul {
 	margin:0;
 	list-style: none;
 	position: relative;
-	word-spacing: 70px;
-	text-align: center;
-	}
+}
 	
 nav ul li {
-	margin: 0;
+	font-family:'Great Vibes', cursive;
+	font-size: 1.5em;
 	display:inline-block;
-	background-color: #226179;
 }
 
 nav a {
@@ -281,11 +297,10 @@ main {
 }
 
 
-
 header h1{
 	width: 230px;
 	height: 150px;
-	background-image: url(../img/logo.png);
+/*	background-image: url(../img/logo.png);*/
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 	position: relative;
