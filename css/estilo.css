@@ -27,9 +27,8 @@ body {
 
 .login-page
 {
-    background-image: url('/img/background.jpg');
+    background-image: url('/img/fotoMenor.jpg');
     background-repeat: no-repeat;
-    background-size:100%;
     bottom: 0;
     color: black;
     left: 0;
@@ -39,6 +38,10 @@ body {
     right: 0;
     top: 0;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 header{
@@ -52,7 +55,7 @@ header{
 header h1{
 	width: 230px;
 	height: 150px;
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo_2.png);
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 	position: relative;
